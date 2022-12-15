@@ -2,7 +2,7 @@
 # Part 1
 
 ## Read in the data
-mydata<-read.table("~/day15.txt")
+mydata<-read.table("data/day15.txt")
 
 ## get the x and y coordinates of the sensors
 sensorx<-as.numeric(sapply(mydata$V3,function(x)substr(x,3,(nchar(x)-1))))
